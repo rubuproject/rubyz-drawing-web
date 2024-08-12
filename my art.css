@@ -1,0 +1,57 @@
+/* styles.css */
+
+.glow {
+    box-shadow: 0 0 10px rgba(0, 255, 0, 0.8); /* Green glow effect */
+}
+
+.nav-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+    align-items: center;
+    height: 50px;
+}
+
+.nav-container a {
+    text-decoration: none;
+    color: rgb(224, 213, 213);
+}
+
+.nav-links {
+    display: flex;
+    list-style: none;
+    gap: 1rem;
+}
+
+.nav-links li a {
+    text-decoration: none;
+    color: black;
+    padding: 2rem;
+}
+
+.image-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* 3 images per row */
+    gap: 20px; /* Space between images */
+    padding: 20px; /* Padding around the grid */
+    justify-content: center; /* Center the grid items horizontally */
+}
+
+.image-container img {
+    width: 100%; /* Make images fill the grid cell */
+    height: 200px; /* Fixed height for uniformity */
+    object-fit: cover; /* Crop the image to fit the container */
+    border-radius: 8px; /* Rounded corners for a polished look */
+    margin: 0 auto; /* Center images within their grid cells */
+}
+button {
+    background-color: transparent;
+    color: #fff;
+    border: 1px solid #fff;
+    padding: 0.7rem 1.5rem;
+    cursor: pointer;
+    transition: all 0.3s;
+    font-size: 0.8rem;
+    position: relative;
+    overflow: hidden;
+}

@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>rubyz art - Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <nav>
+                <div class="logo glow">yafo</div>
+                <ul>
+                    <li><a href="my art.html" class="button">My Art</a></li>
+                    <li><a href="#projects">Selected Projects</a></li>
+                    <li><a href="my art.html" class="button">my art</a></li>
+                    <li><a href="#about">About me</a></li>
+                    <li><a href="#resume">Resume</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <section id="intro">
+                <h1 class="glow">Hi, I'm Rubyz</h1>
+                <p class="subtitle">artists and musicians</p>
+                <p class="description">I'm always trying to bring real value and define problems with my designs. Welcome to my portfolio.</p>
+                <button id="cta-button" class="glow">CHECK OUT MY WORK</button>
+            </section>
+            <section id="projects">
+                <div class="project-card user-centered">
+                    <div class="overlay">
+                        <h3>likes art, music and simple programming</h3>
+                    </div>
+                </div>
+                <div class="project-card ocean">
+                    <div class="overlay">
+                        <h3>Menggambar Anime, Sketsa, dan Coloring</h3>
+                        <p>the drawing process takes 2 to 7 days.</p>
+                    </div>
+                </div>
+                <div class="project-card dog-lover">
+                    <div class="overlay">
+                        <h3>Art Lover</h3>
+                        <h4>Tools used for drawing:</h4>
+                        <p>2B pencil and colored pencils, eraser, sketchbook, ballpoint pen and marker.</p>
+                    </div>
+                </div>
+                <div class="project-card profile">
+                    <img src="wokwok.jpg" alt="Rubu yafo">
+                    <h3>Rubu yafo</h3>
+                    <p class="job-title">High School Student</p>
+                    <p class="bio">
+                        lives on jln arafura
+                        schools at sma negeri 2 merauke, grade 12
+                        working on a simple web project.
+                    </p>
+                </div>
+            </section>
+        </main>
+    </div>
+
+    <div id="audio-player">
+        <audio id="background-music" loop>
+            <source src="piano.m4a" type="audio/mpeg">
+            Your browser does not support the audio element.
+        </audio>
+        <button onclick="document.getElementById('background-music').play()">Play Music</button>
+        <button onclick="document.getElementById('background-music').pause()">Pause Music</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
